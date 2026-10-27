@@ -1,0 +1,27 @@
+{
+    "name": "allamanda/carryover",
+    "description": "Catch deploys that break jobs already waiting in your queue.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["queue", "jobs", "deploy", "serialization", "zero-downtime", "laravel", "symfony"],
+    "homepage": "https://github.com/harshanajayarathna/carryover",
+    "authors": [
+        {
+            "name": "Harshana Jayarathna",
+            "homepage": "https://allamanda.co.nz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/harshanajayarathna/carryover/issues",
+        "source": "https://github.com/harshanajayarathna/carryover"
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carryover\\": "src/"
+        }
+    }
+}
